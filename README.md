@@ -1,10 +1,80 @@
-- 👋 Hi, I’m @KpomyBenjamin
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Gestion d'école
 
-<!---
-KpomyBenjamin/KpomyBenjamin is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Projet de fin de cycle réalisé dans le cadre de ma Licence 3 MIAGE.
+
+# Description
+
+Cette application web permet de gérer les étudiants d'une école.
+
+Elle propose notamment :
+
+- Authentification des utilisateurs
+- Authentification administrateur
+- Inscription des étudiants
+- Gestion des étudiants
+- Ajout d'un étudiant
+- Modification d'un étudiant
+- Suppression d'un étudiant
+- Affichage des informations des étudiants
+- Gestion des photos des étudiants
+- Gestion des utilisateurs et administrateurs
+
+## Technologies utilisées
+- PHP
+- MySQL
+- HTML
+- CSS
+- Bootstrap
+- Font Awesome
+- Apache
+
+## Architecture du projet
+
+Programme/
+│
+├── Authentification/
+│   ├── Model/
+│   ├── View/
+│   └── Controler/
+│
+├── EspaceEtudiant/
+│   ├── Model/
+│   ├── Controller/
+│   └── Vue/
+│
+├── gestionecole.sql
+│
+└── README.md
+
+# Base de données
+
+La base de données utilisée est gestionecole.
+
+# Elle contient notamment les tables :
+users
+admin
+etudiant
+
+# Fonctionnement
+
+L'application distingue deux types d'utilisateurs :
+
+# Étudiant
+
+L'étudiant peut consulter ses informations.
+
+# Administrateur
+
+L'administrateur peut :
+
+consulter la liste des étudiants ;
+ajouter un étudiant ;
+modifier un étudiant ;
+supprimer un étudiant.
+
+# Projet
+
+# Projet de fin de cycle — Licence 3 MIAGE 2022-2023
+
+# Réalisé dans le cadre de ma formation en informatique / MIAGE.
+
